@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h2>The Game of Life</h2>
+<h3>EE312</h3>
+<h3>Due: Friday 2/15/19 at 6:00pm<br>
+  100 points</h3>
+<p>For this assignment you will be implementing the classic cellular automotan <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="new">Conway's Game of Life</a>.</p>
+<p><strong>Rules</strong></p>
+<ul>
+  <li>A new cell is born on an empty square if is surrounded by exactly three neighboring cells</li>
+  <li>A cell dies of overcrowding if it has four or more neighbors</li>
+  <li>A cell dies of loneliness if it has zero or one neighbor</li>
+  <li>Any live cell with two or three live neighbors lives, unchanged, to the next generation.<br>
+  </li>
+</ul>
+<p>The initial state of the game will be held in a text file. The format will be sequences of ones and zeros (characters). A '1' means that a cell is alive in that square. You will determine the number of columns in the grid display by reading the first line of the text file and seeing how many characters are in the string. You will determine the number of rows in the grid by counting the lines of data. You will need to know the number of rows and columns in order to dynamically allocate memory for the subsequent iterations of the world.</p>
+<p>Here is an example of what a world might look like. This grid may be of arbitrary size, but the number of columns will be the same for every row.</p>
+<p>00000000100000001010<br>
+  00000000010000001001<br>
+  11100000010100000010<br>
+  10100100101010101010<br>
+00101010010010101000</p>
+<p>When printing out the status of the grid, print one character to standard output per cell in the automaton. Use an asterisk (*) to show that a cell is alive and a period (.) to show that the cell is dead.The driver program will clear the screen between generations. </p>
+<p>The name of the input file and the number of iterations will be passed as parameters to the main function. Here is an example of how the program will start:</p>
+<p>&lt;linux_prompt&gt;% ./life starting_grid.txt 250</p>
+<p>Where the name of the executable program is &quot;life&quot;, the input file is &quot;starting_grid.txt&quot;, and the number of iterations is 250.</p>
+<p><strong>NOTES:</strong> </p>
+<ul>
+  <li>You must do this program by yourself.</li>
+  <li>This program must be done using a Linux environment. Note: Your code must compile and run on kamek.ece.utexas.edu.</li>
+  <li>Please see the code in <a href="example.c">this example</a> to clear the screen.</li>
+  <li>The program must be modular, with significant work done by functions. Each function should perform a single, well-defined task. When possible, create re-usable functions. Do not write trivial functions such as a function to read a single value from an input file. </li>
+  <li>You must place appropriate functions in a library. You will be given a starting life.h file. Don't change the function definitions in this file. You will also be given the life_driver.c source file. Only make the small modifications as mentioned in the comments. </li>
+  <li> You must name your C source files life.c, life_driver.c and life.h (make sure you comment the header file well). </li>
+</ul>
+<p><strong>Turn in:</strong> life_driver.c, life.c, life.h (you can use the makefile that we are providing).</p>
+<p><strong>Upload</strong>: Turn in a zipped file named prog02_xxxxx.zip where xxxxxx is your UT EID to Canvas.</p>
+<p>Be sure to follow the style standards for the course. </p>
+<p>&nbsp;</p>
+<p>rlp 1/29/19</p>
+</body>
+</html>
