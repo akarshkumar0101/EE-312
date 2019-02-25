@@ -28,14 +28,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <unistd.h>
 
 #include "life.h"
-
 
 int main(int argc, char *argv[]) {
 
    //edit these two lines and use the command line arguments
-   char* fName = argv[1];
+   char *fName = argv[1];
    const int numGenerations  = atoi(argv[2]); //set to a smaller number for debugging
     
    const int MAX_ROWS = 80; //we want the world to fit on one screen

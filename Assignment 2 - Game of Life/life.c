@@ -25,6 +25,9 @@
 
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 
 /*
 	This method is to spawn a cell in a specific row and column coordinate of the grid
