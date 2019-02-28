@@ -5,7 +5,7 @@
 # Ideally, one target for every object file and a target for final binary. 
 
 
-equation_checker: equation_checker.o stack_arr.o
+equation_checker: equation_checker.o stack_arr.o flood_fill
 	c99 -o equation_checker equation_checker.o stack_arr.o
 equation_checker.o: equation_checker.c
 	c99 -c equation_checker.c
