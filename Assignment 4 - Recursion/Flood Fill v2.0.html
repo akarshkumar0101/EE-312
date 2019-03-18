@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+.console_view {
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+.console_view {
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+.console_view {
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+</style>
+</head>
+
+<body>
+<h2>Flood Fill v2.0<br>
+  EE 312<br>
+  Due: Thursday 3/14/19 at 10:00 PM</h2>
+<h2>50 points</h2>
+<h3><strong>No loops in the flood fill algorithm. You can use a loop to read in the original "picture" file and to prompt the user for the input. Obviously the Flood Fill will have to be implemented in a function that can be called recursively.</strong></h3>
+<h3>----------------------------------------</h3>
+<h3>Flood Fill<br>
+</h3>
+<p> Given an input file of the following format (<a href="fake_picture.txt">a fake picture</a>):</p>
+<p class="console_view">yyywwbbbbbbbggggg<br>
+  yyybbbbbbbgggbbbb<br>
+  ybybybybybwwwwwyy<br>
+  ybbbbggwwwwwwbbbg<br>
+  ggggggwwbbbbbbbbb<br>
+  yyyyyyyyybbbyyyyy<br>
+ggggyyyygggggyyyy</p>
+<p>that uses characters to represent colors in a picture, you will need to write a function that will &quot;flood fill&quot; an area with another &quot;color.&quot; For example. If I were to flood fill the pixel at row 0 col 6 (a&quot;b&quot;) with a &quot;P&quot;, I would get this:</p>
+<p class="console_view">yyywwPPPPPPPggggg<br>
+  yyyPPPPPPPgggbbbb<br>
+  yPyPyPyPyPwwwwwyy<br>
+  yPPPPggwwwwwwbbbg<br>
+  ggggggwwbbbbbbbbb<br>
+  yyyyyyyyybbbyyyyy<br>
+  ggggyyyygggggyyyy</p>
+<p>Every pixel that has the same color and is connected to the area of the flood fill is changed to the new color.</p>
+<p>Write a program that reads in a file (provided at the linux prompt) that is at most 25 rows and 25 columns and repeatedly prompts the user for a row and column number, and a &quot;color&quot;.  The program will fill that area with the new color, show the new picture and prompt the user again.  The program will end when the user enters -1 for the row or column. You will use solve the problem with a recursive function.</p>
+<p>Example Run:</p>
+<p>linux prompt&gt; ./flood_fill fake_picture.txt</p>
+<p><span class="console_view">yyywwbbbbbbbggggg<br>
+yyybbbbbbbgggbbbb<br>
+ybybybybybwwwwwyy<br>
+ybbbbggwwwwwwbbbg<br>
+ggggggwwbbbbbbbbb<br>
+yyyyyyyyybbbyyyyy<br>
+ggggyyyygggggyyyy</span></p>
+<p>Enter a row: 0<br>
+  Enter a column: 6<br>
+Enter a color: P</p>
+<p><span class="console_view">yyywwPPPPPPPggggg<br>
+yyyPPPPPPPgggbbbb<br>
+yPyPyPyPyPwwwwwyy<br>
+yPPPPggwwwwwwbbbg<br>
+ggggggwwbbbbbbbbb<br>
+yyyyyyyyybbbyyyyy<br>
+ggggyyyygggggyyyy</span></p>
+<p>Enter a row: 1<br>
+  Enter a column: 1<br>
+Enter a color: G</p>
+<p class="console_view">GGGwwPPPPPPPggggg<br>
+  GGGPPPPPPPgggbbbb<br>
+  GPGPyPyPyPwwwwwyy<br>
+  GPPPPggwwwwwwbbbg<br>
+  ggggggwwbbbbbbbbb<br>
+  yyyyyyyyybbbyyyyy<br>
+  ggggyyyygggggyyyy</p>
+<p>Enter a row: -1<br>
+  Enter a column: 1<br>
+Enter a color: G</p>
+<h3>----------------------------------------</h3>
+<p><strong>NOTES:</strong> </p>
+<ul>
+  <li>You must do these program by yourself.</li>
+  <li>The programs must be done using a Linux environment. Note: Your code must compile and run on kamek.ece.utexas.edu.</li>
+  <li>The programs must be modular, with significant work done by functions. Each function should perform a single, well-defined task. When possible, create re-usable functions. Do not write trivial functions such as a function to read a single value from an input file. </li>
+  <li>You will be turning in  one zipped project. </li>
+</ul>
+<p><strong>Turn in:</strong> One zipped file that includes: readme.txt (gives instructions for compiling and running code) and your source file(s). The makefile should create a executable program named &quot;flood_fill&quot;. To make this process work better, zip the files on kamek before you transfer them back to your computer for turnin.</p>
+<p><strong>Upload</strong>: Turn in a zipped file named prog04ff_xxxxx.zip where xxxxxx is your UT EID to Canvas.</p>
+<p>Be sure to follow the style standards for the course. </p>
+<p>rlp 2/25/19</p>
+</body>
+</html>

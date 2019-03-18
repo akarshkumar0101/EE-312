@@ -5,7 +5,6 @@
 #include <string.h>
 #include <stdbool.h>
 
-#include "stack_ll.h"
 
 #define MAX_ROWS 30
 #define MAX_COLS 30
@@ -19,6 +18,8 @@ void setPicture(char *fName, char *picture[], int *numRows, int *numCols);
 void delPicture(char *picture[], int numRows);
 //flood fill a pixel at the given column and row with a given color
 void floodFill(char *picture[], int numRows, int numCols, int row, int col, char color);
+//a helper method that flood fills using recursion on itself
+void floodFillRecur(char *picture[], int numRows, int numCols, int row, int col, char originalColor, char color);
 
 int main(int argc, char *argv[]){
 	char *fName = argv[1];
@@ -28,8 +29,6 @@ int main(int argc, char *argv[]){
 	int numCols;
 
 	setPicture(fName, picture, &numRows, &numCols);
-
-	
 
 	while(1){
 		printf("\n");
@@ -43,17 +42,24 @@ int main(int argc, char *argv[]){
 		printf("Enter a row: ");
 		scanf("%5s", rowInput);
 
+		int row = atoi(rowInput);
+
 		printf("Enter a column: ");
 		scanf("%5s", colInput);
 
+		int col = atoi(colInput);
+
+		if(row >= numRows || col >= numCols){
+			printf("(%d, %d) is an invalid coordinate for this picture\n", row, col);
+			continue;
+		}
+
 		printf("Enter a color: ");
 		scanf("%2s", colorInput);
-
-		int row = atoi(rowInput);
-		int col = atoi(colInput);
+		
 		char color = colorInput[0];
 
-		if(row == -1 || col == -1){
+		if(row < 0 || col < 0){
 			break;
 		}
 
@@ -110,40 +116,21 @@ void delPicture(char *picture[], int numRows){
 }
 
 void floodFill(char *picture[], int numRows, int numCols, int row, int col, char color){
-	char prevColor = picture[row][col];
-	Stack312 stack;
-
-	makeStack(&stack);
-
-	Pixel initPix;
-	initPix.row = row;
-	initPix.col = col;
-	initPix.color = prevColor;
-
-	push(initPix, &stack);
-	
-	while(!isEmpty(stack)){
-		//fill in next one
-		Pixel pix = pop(&stack);
-		picture[pix.row][pix.col] = color;
-
-		for(int relx = -1; relx <= 1; relx++){
-			for(int rely = -1; rely <= 1; rely++){
-				if(relx == 0 && rely == 0) continue;
-				int nextrow = pix.row+rely;
-				int nextcol = pix.col+relx;
-				if(nextrow >=0 && nextrow < numRows && nextcol >= 0 && nextcol < numCols && picture[nextrow][nextcol] == prevColor){
-					Pixel nextPix;
-					nextPix.row = nextrow;
-					nextPix.col = nextcol;
-					nextPix.color = prevColor;
-					push(nextPix, &stack);
-				}
+	if(picture[row][col] != color){
+		floodFillRecur(picture,numRows, numCols, row, col, picture[row][col], color);
+	}
+}
+void floodFillRecur(char *picture[], int numRows, int numCols, int row, int col, char originalColor, char color){
+	picture[row][col] = color;
+	for(int relx = -1; relx <= 1; relx++){
+		for(int rely = -1; rely <= 1; rely++){
+			int nextrow = row+rely;
+			int nextcol = col+relx;
+			if(nextrow >=0 && nextrow < numRows && nextcol >= 0 && nextcol < numCols && picture[nextrow][nextcol] == originalColor){
+				floodFillRecur(picture, numRows, numCols, nextrow, nextcol, originalColor, color);
 			}
 		}
-
 	}
-
 }
 
 
