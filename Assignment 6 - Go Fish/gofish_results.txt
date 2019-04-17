@@ -1,0 +1,698 @@
+Dealing cards to players
+Done dealing cards, these are what they drew: 
+Joe's Hand:
+As Ad Jh 5h 3h 9c Kd 
+Jane's Hand:
+Qs 10h 2s 7h 4h 6d Ks 
+
+-------------------------------------------
+Joe's Turn (Again)
+-------------------------------------------
+Joe books As and Ad
+
+Joe's Hand:
+Jh 5h 3h 9c Kd 
+Jane's Hand:
+Qs 10h 2s 7h 4h 6d Ks 
+Deck size: 38
+
+Joe asks - Do you have a K? (Referring to his Kd)
+Jane says - Yes. I have a K (Referring to his Ks)
+Transferred Ks
+-------------------------------------------
+Joe's Turn (Again)
+-------------------------------------------
+Joe books Kd and Ks
+
+Joe's Hand:
+Jh 5h 3h 9c 
+Jane's Hand:
+Qs 10h 2s 7h 4h 6d 
+Deck size: 38
+
+Joe asks - Do you have a 3? (Referring to his 3h)
+Jane says - Go Fish
+Joe draws 3s
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+Joe books 3h and 3s
+
+Joe's Hand:
+Jh 5h 9c 
+Jane's Hand:
+Qs 10h 2s 7h 4h 6d 
+Deck size: 37
+
+Jane asks - Do you have a Q? (Referring to his Qs)
+Joe says - Go Fish
+Jane draws 2c
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+Jane books 2s and 2c
+
+Joe's Hand:
+Jh 5h 9c 
+Jane's Hand:
+Qs 10h 7h 4h 6d 
+Deck size: 36
+
+Joe asks - Do you have a 5? (Referring to his 5h)
+Jane says - Go Fish
+Joe draws 10c
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+Jh 5h 9c 10c 
+Jane's Hand:
+Qs 10h 7h 4h 6d 
+Deck size: 35
+
+Jane asks - Do you have a 6? (Referring to his 6d)
+Joe says - Go Fish
+Jane draws 9s
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+Jh 5h 9c 10c 
+Jane's Hand:
+Qs 10h 7h 4h 6d 9s 
+Deck size: 34
+
+Joe asks - Do you have a J? (Referring to his Jh)
+Jane says - Go Fish
+Joe draws 7c
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+Jh 5h 9c 10c 7c 
+Jane's Hand:
+Qs 10h 7h 4h 6d 9s 
+Deck size: 33
+
+Jane asks - Do you have a 10? (Referring to his 10h)
+Joe says - Yes. I have a 10 (Referring to his 10c)
+Transferred 10c
+-------------------------------------------
+Jane's Turn (Again)
+-------------------------------------------
+Jane books 10h and 10c
+
+Joe's Hand:
+Jh 5h 9c 7c 
+Jane's Hand:
+Qs 7h 4h 6d 9s 
+Deck size: 33
+
+Jane asks - Do you have a 7? (Referring to his 7h)
+Joe says - Yes. I have a 7 (Referring to his 7c)
+Transferred 7c
+-------------------------------------------
+Jane's Turn (Again)
+-------------------------------------------
+Jane books 7h and 7c
+
+Joe's Hand:
+Jh 5h 9c 
+Jane's Hand:
+Qs 4h 6d 9s 
+Deck size: 33
+
+Jane asks - Do you have a 4? (Referring to his 4h)
+Joe says - Go Fish
+Jane draws 9d
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+Jane books 9s and 9d
+
+Joe's Hand:
+Jh 5h 9c 
+Jane's Hand:
+Qs 4h 6d 
+Deck size: 32
+
+Joe asks - Do you have a 5? (Referring to his 5h)
+Jane says - Go Fish
+Joe draws Qc
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+Jh 5h 9c Qc 
+Jane's Hand:
+Qs 4h 6d 
+Deck size: 31
+
+Jane asks - Do you have a 4? (Referring to his 4h)
+Joe says - Go Fish
+Jane draws Qh
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+Jane books Qs and Qh
+
+Joe's Hand:
+Jh 5h 9c Qc 
+Jane's Hand:
+4h 6d 
+Deck size: 30
+
+Joe asks - Do you have a Q? (Referring to his Qc)
+Jane says - Go Fish
+Joe draws Qd
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+Joe books Qc and Qd
+
+Joe's Hand:
+Jh 5h 9c 
+Jane's Hand:
+4h 6d 
+Deck size: 29
+
+Jane asks - Do you have a 6? (Referring to his 6d)
+Joe says - Go Fish
+Jane draws Js
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+Jh 5h 9c 
+Jane's Hand:
+4h 6d Js 
+Deck size: 28
+
+Joe asks - Do you have a J? (Referring to his Jh)
+Jane says - Yes. I have a J (Referring to his Js)
+Transferred Js
+-------------------------------------------
+Joe's Turn (Again)
+-------------------------------------------
+Joe books Jh and Js
+
+Joe's Hand:
+5h 9c 
+Jane's Hand:
+4h 6d 
+Deck size: 28
+
+Joe asks - Do you have a 5? (Referring to his 5h)
+Jane says - Go Fish
+Joe draws 2h
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 9c 2h 
+Jane's Hand:
+4h 6d 
+Deck size: 27
+
+Jane asks - Do you have a 4? (Referring to his 4h)
+Joe says - Go Fish
+Jane draws 6s
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+Jane books 6d and 6s
+
+Joe's Hand:
+5h 9c 2h 
+Jane's Hand:
+4h 
+Deck size: 26
+
+Joe asks - Do you have a 5? (Referring to his 5h)
+Jane says - Go Fish
+Joe draws 10d
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 9c 2h 10d 
+Jane's Hand:
+4h 
+Deck size: 25
+
+Jane asks - Do you have a 4? (Referring to his 4h)
+Joe says - Go Fish
+Jane draws 3d
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 9c 2h 10d 
+Jane's Hand:
+4h 3d 
+Deck size: 24
+
+Joe asks - Do you have a 9? (Referring to his 9c)
+Jane says - Go Fish
+Joe draws 3c
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 9c 2h 10d 3c 
+Jane's Hand:
+4h 3d 
+Deck size: 23
+
+Jane asks - Do you have a 3? (Referring to his 3d)
+Joe says - Yes. I have a 3 (Referring to his 3c)
+Transferred 3c
+-------------------------------------------
+Jane's Turn (Again)
+-------------------------------------------
+Jane books 3d and 3c
+
+Joe's Hand:
+5h 9c 2h 10d 
+Jane's Hand:
+4h 
+Deck size: 23
+
+Jane asks - Do you have a 4? (Referring to his 4h)
+Joe says - Go Fish
+Jane draws Jc
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 9c 2h 10d 
+Jane's Hand:
+4h Jc 
+Deck size: 22
+
+Joe asks - Do you have a 10? (Referring to his 10d)
+Jane says - Go Fish
+Joe draws 4d
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 9c 2h 10d 4d 
+Jane's Hand:
+4h Jc 
+Deck size: 21
+
+Jane asks - Do you have a J? (Referring to his Jc)
+Joe says - Go Fish
+Jane draws 8s
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 9c 2h 10d 4d 
+Jane's Hand:
+4h Jc 8s 
+Deck size: 20
+
+Joe asks - Do you have a 5? (Referring to his 5h)
+Jane says - Go Fish
+Joe draws 9h
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+Joe books 9c and 9h
+
+Joe's Hand:
+5h 2h 10d 4d 
+Jane's Hand:
+4h Jc 8s 
+Deck size: 19
+
+Jane asks - Do you have a 4? (Referring to his 4h)
+Joe says - Yes. I have a 4 (Referring to his 4d)
+Transferred 4d
+-------------------------------------------
+Jane's Turn (Again)
+-------------------------------------------
+Jane books 4h and 4d
+
+Joe's Hand:
+5h 2h 10d 
+Jane's Hand:
+Jc 8s 
+Deck size: 19
+
+Jane asks - Do you have a J? (Referring to his Jc)
+Joe says - Go Fish
+Jane draws Kh
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 2h 10d 
+Jane's Hand:
+Jc 8s Kh 
+Deck size: 18
+
+Joe asks - Do you have a 2? (Referring to his 2h)
+Jane says - Go Fish
+Joe draws 7s
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 2h 10d 7s 
+Jane's Hand:
+Jc 8s Kh 
+Deck size: 17
+
+Jane asks - Do you have a J? (Referring to his Jc)
+Joe says - Go Fish
+Jane draws 5d
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 2h 10d 7s 
+Jane's Hand:
+Jc 8s Kh 5d 
+Deck size: 16
+
+Joe asks - Do you have a 2? (Referring to his 2h)
+Jane says - Go Fish
+Joe draws Ah
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 2h 10d 7s Ah 
+Jane's Hand:
+Jc 8s Kh 5d 
+Deck size: 15
+
+Jane asks - Do you have a K? (Referring to his Kh)
+Joe says - Go Fish
+Jane draws Kc
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+Jane books Kh and Kc
+
+Joe's Hand:
+5h 2h 10d 7s Ah 
+Jane's Hand:
+Jc 8s 5d 
+Deck size: 14
+
+Joe asks - Do you have a 7? (Referring to his 7s)
+Jane says - Go Fish
+Joe draws 4c
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+5h 2h 10d 7s Ah 4c 
+Jane's Hand:
+Jc 8s 5d 
+Deck size: 13
+
+Jane asks - Do you have a 5? (Referring to his 5d)
+Joe says - Yes. I have a 5 (Referring to his 5h)
+Transferred 5h
+-------------------------------------------
+Jane's Turn (Again)
+-------------------------------------------
+Jane books 5d and 5h
+
+Joe's Hand:
+2h 10d 7s Ah 4c 
+Jane's Hand:
+Jc 8s 
+Deck size: 13
+
+Jane asks - Do you have a J? (Referring to his Jc)
+Joe says - Go Fish
+Jane draws Ac
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+2h 10d 7s Ah 4c 
+Jane's Hand:
+Jc 8s Ac 
+Deck size: 12
+
+Joe asks - Do you have a 4? (Referring to his 4c)
+Jane says - Go Fish
+Joe draws 6c
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+2h 10d 7s Ah 4c 6c 
+Jane's Hand:
+Jc 8s Ac 
+Deck size: 11
+
+Jane asks - Do you have a A? (Referring to his Ac)
+Joe says - Yes. I have a A (Referring to his Ah)
+Transferred Ah
+-------------------------------------------
+Jane's Turn (Again)
+-------------------------------------------
+Jane books Ac and Ah
+
+Joe's Hand:
+2h 10d 7s 4c 6c 
+Jane's Hand:
+Jc 8s 
+Deck size: 11
+
+Jane asks - Do you have a J? (Referring to his Jc)
+Joe says - Go Fish
+Jane draws 10s
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+2h 10d 7s 4c 6c 
+Jane's Hand:
+Jc 8s 10s 
+Deck size: 10
+
+Joe asks - Do you have a 7? (Referring to his 7s)
+Jane says - Go Fish
+Joe draws 8h
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+2h 10d 7s 4c 6c 8h 
+Jane's Hand:
+Jc 8s 10s 
+Deck size: 9
+
+Jane asks - Do you have a J? (Referring to his Jc)
+Joe says - Go Fish
+Jane draws 5s
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+2h 10d 7s 4c 6c 8h 
+Jane's Hand:
+Jc 8s 10s 5s 
+Deck size: 8
+
+Joe asks - Do you have a 4? (Referring to his 4c)
+Jane says - Go Fish
+Joe draws 2d
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+Joe books 2h and 2d
+
+Joe's Hand:
+10d 7s 4c 6c 8h 
+Jane's Hand:
+Jc 8s 10s 5s 
+Deck size: 7
+
+Jane asks - Do you have a J? (Referring to his Jc)
+Joe says - Go Fish
+Jane draws 8c
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+Jane books 8s and 8c
+
+Joe's Hand:
+10d 7s 4c 6c 8h 
+Jane's Hand:
+Jc 10s 5s 
+Deck size: 6
+
+Joe asks - Do you have a 8? (Referring to his 8h)
+Jane says - Go Fish
+Joe draws Jd
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+
+Joe's Hand:
+10d 7s 4c 6c 8h Jd 
+Jane's Hand:
+Jc 10s 5s 
+Deck size: 5
+
+Jane asks - Do you have a J? (Referring to his Jc)
+Joe says - Yes. I have a J (Referring to his Jd)
+Transferred Jd
+-------------------------------------------
+Jane's Turn (Again)
+-------------------------------------------
+Jane books Jc and Jd
+
+Joe's Hand:
+10d 7s 4c 6c 8h 
+Jane's Hand:
+10s 5s 
+Deck size: 5
+
+Jane asks - Do you have a 5? (Referring to his 5s)
+Joe says - Go Fish
+Jane draws 4s
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+10d 7s 4c 6c 8h 
+Jane's Hand:
+10s 5s 4s 
+Deck size: 4
+
+Joe asks - Do you have a 6? (Referring to his 6c)
+Jane says - Go Fish
+Joe draws 6h
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+Joe books 6c and 6h
+
+Joe's Hand:
+10d 7s 4c 8h 
+Jane's Hand:
+10s 5s 4s 
+Deck size: 3
+
+Jane asks - Do you have a 5? (Referring to his 5s)
+Joe says - Go Fish
+Jane draws 5c
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+Jane books 5s and 5c
+
+Joe's Hand:
+10d 7s 4c 8h 
+Jane's Hand:
+10s 4s 
+Deck size: 2
+
+Joe asks - Do you have a 10? (Referring to his 10d)
+Jane says - Yes. I have a 10 (Referring to his 10s)
+Transferred 10s
+-------------------------------------------
+Joe's Turn (Again)
+-------------------------------------------
+Joe books 10d and 10s
+
+Joe's Hand:
+7s 4c 8h 
+Jane's Hand:
+4s 
+Deck size: 2
+
+Joe asks - Do you have a 4? (Referring to his 4c)
+Jane says - Yes. I have a 4 (Referring to his 4s)
+Transferred 4s
+-------------------------------------------
+Joe's Turn (Again)
+-------------------------------------------
+Joe books 4c and 4s
+
+Joe's Hand:
+7s 8h 
+Jane's Hand:
+
+Deck size: 2
+
+Joe asks - Do you have a 7? (Referring to his 7s)
+Jane says - Go Fish
+Joe draws 8d
+-------------------------------------------
+Jane's Turn
+-------------------------------------------
+Joe books 8h and 8d
+
+Joe's Hand:
+7s 
+Jane's Hand:
+
+Deck size: 1
+
+-------------------------------------------
+Joe's Turn
+-------------------------------------------
+
+Joe's Hand:
+7s 
+Jane's Hand:
+7d 
+Deck size: 0
+
+Joe asks - Do you have a 7? (Referring to his 7s)
+Jane says - Yes. I have a 7 (Referring to his 7d)
+Transferred 7d
+-------------------------------------------
+Joe's Turn (Again)
+-------------------------------------------
+Joe books 7s and 7d
+
+Joe's Hand:
+
+Jane's Hand:
+
+Deck size: 0
+
+-------------------------------------------
+Game Over! 
+Joe's Book:
+As Kd 3h Qc Jh 9c 2h 6c 10d 4c 8h 7s 
+Jane's Book:
+2s 10h 7h 9s Qs 6d 3d 4h Kh 5d Ac 8s Jc 5s 
+
+*****Jane wins!*****
